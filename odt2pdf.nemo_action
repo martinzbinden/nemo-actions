@@ -1,13 +1,10 @@
 [Nemo Action]
+Active=true
 Name=Convert ODT to PDF
 Comment=Convert selected ODT files to PDF
-Exec=<~/scripts/odt2pdf.sh "$f">
+Exec=<scripts/odt2pdf.sh %F>
 Icon-Name=libreoffice-writer
-Extensions=odt
+Extensions=odt;
 Selection=notnone
-EscapeSpaces=true
-Dependencies=ocrmypdf;
-
-[X-Nemo-Per-File]
-# The Exec line calls the script and passes the selected file path ($f)
-
+Quote=double
+Dependencies=libreoffice;zenity;

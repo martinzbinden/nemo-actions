@@ -12,4 +12,7 @@ in der jeweiligen `.nemo_action`-Datei (`Dependencies=`).
 | `images-to-pdf` | Bilder zu PDF (einzeln oder zusammen) |
 | `manual-duplex` | PDF manuell beidseitig drucken |
 | `webp_convert`, `convert_to_webp`, `pdf_*_to_webp` | WebP-Konvertierungen |
-| `create-pdf*`, `ocr-pdf`, `odt2pdf`, `pdf`, `print` | PDF-/Druck-Hilfen (teils verweisen sie auf Skripte, die nicht in diesem Repository liegen) |
+| `odt2pdf` | ODT-Dateien mit LibreOffice zu PDF |
+| `print`, `pdf` | Dateien drucken (`lp -o fit-to-page`) |
+| `create-pdf*` | PDF aus Bildern bzw. Dokumenten (unoconv) |
+| `ocr-pdf` | **nicht funktionsfähig:** verweist auf ein fehlendes Skript |
