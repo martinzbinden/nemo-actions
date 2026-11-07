@@ -1,0 +1,10 @@
+[Nemo Action]
+Name=Print
+Comment=Printing from Nemo
+
+#Exec=gnome-terminal -x sh -c "echo %F | less"
+Exec=<scripts/print.sh %F>
+Icon-Name=document-print
+Selection=Any
+Separator=;
+Extensions=txt;pdf;jpg;gif;png

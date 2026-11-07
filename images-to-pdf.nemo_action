@@ -1,0 +1,10 @@
+[Nemo Action]
+Active=true
+Name=Bilder → PDF (für Paperless)
+Comment=Ausgewählte Bilder nach PDF umwandeln (einzeln oder zusammen)
+Exec=<scripts/images-to-pdf.sh %F>
+Icon-Name=application-pdf
+Selection=notnone
+Extensions=jpg;jpeg;png;tif;tiff;gif;bmp;webp;heic;heif;jp2;
+Quote=double
+Dependencies=python3;zenity;

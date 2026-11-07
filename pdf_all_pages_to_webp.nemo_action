@@ -1,0 +1,10 @@
+[Nemo Action]
+Active=true
+Name=Alle Seiten als .webp im ZIP speichern (High Res)
+Comment=Konvertiert alle Seiten bei 225 DPI in WebP und packt sie direkt in ein ZIP-Archiv
+Exec=bash -c '"$HOME/.local/share/nemo/actions/pdf_to_webp_zip.sh" "%F"'
+Selection=s
+Extensions=pdf;
+EscapeSpaces=true
+Icon-Name=package-x-generic
+

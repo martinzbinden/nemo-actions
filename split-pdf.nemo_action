@@ -1,0 +1,10 @@
+[Nemo Action]
+Active=true
+Name=PDF trennen …
+Comment=PDF an frei wählbaren Stellen in mehrere Dateien aufteilen
+Exec=<scripts/split-pdf.py %F>
+Icon-Name=edit-cut
+Selection=notnone
+Extensions=pdf;
+Quote=double
+Dependencies=python3;

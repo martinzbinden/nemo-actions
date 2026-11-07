@@ -1,0 +1,8 @@
+[Nemo Action]
+Active=true
+Name=Create PDF from Selection
+Comment=Create a PDF from selected files (e.g., images)
+Exec=convert %F %U.pdf
+Icon-Name=application-x-pdf
+Selection=Any
+Extensions=png;jpg;jpeg;tiff;bmp;

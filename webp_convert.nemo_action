@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=WebP umwandeln in...
+Comment=Konvertiert ein WebP-Bild über einen Auswahldialog in PNG oder JPEG
+Exec=bash -c '"$HOME/.local/share/nemo/actions/webp_convert.sh" "%F"'
+Selection=s
+Extensions=webp;
+EscapeSpaces=true
+Icon-Name=image-x-generic

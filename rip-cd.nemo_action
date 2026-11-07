@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Audio-CD rippen (Opus) …
+Comment=Audio-CD in den aktuellen Ordner rippen: Interpret/Album/NN Titel.opus, Tags per MusicBrainz
+Exec=<scripts/rip-cd.sh %P>
+Icon-Name=media-optical-audio
+Selection=none
+Quote=double
+Dependencies=cdparanoia;opusenc;python3;zenity;

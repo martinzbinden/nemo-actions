@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Convert to PDF
+Exec=unoconv "%F"
+Icon-Name=pdf
+Selection=notnone
+Extensions=odt;doc;docx;txt;
+Mimetypes=application/vnd.oasis.opendocument.text;application/msword;application/vnd.openxmlformats-officedocument.wordprocessingml.document;text/plain;
+Quote=double

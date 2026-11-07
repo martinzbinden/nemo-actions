@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Convert to WebP (Keep EXIF)
+Comment=Convert to WebP, preserving EXIF and embedding filename
+Exec=sh -c 'for f in %F; do out="${f%.*}.webp"; cwebp -q 90 -metadata all "$f" -o "$out"; exiftool -overwrite_original -DocumentName="${f##*/}" "$out"; done'
+Icon=image-x-generic
+Selection=any
+Extensions=jpg;jpeg;png;gif;bmp;tiff;tif;
+Quote=double

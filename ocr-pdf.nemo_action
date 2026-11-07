@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=_OCR FRA
+Comment=OCR #F to #F-ocr
+Exec=<scripts/ocr-pdf.sh %F>
+Icon-Name=edit-copy-symbolic
+Selection=notnone
+Extensions=pdf;
+EscapeSpaces=true
+Dependencies=ocrmypdf;

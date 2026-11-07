@@ -1,0 +1,9 @@
+[Nemo Action]
+Name=Manuell beidseitig drucken
+Comment=PDF in zwei Durchgängen beidseitig drucken (erst ungerade, dann gerade Seiten)
+Exec=<manual-duplex.sh %F>
+Icon-Name=printer
+Selection=s
+Extensions=pdf;
+Dependencies=zenity;lp;pdfinfo;
+Quote=double

@@ -1,0 +1,10 @@
+[Nemo Action]
+Active=true
+Name=Excel → CSV (ein Blatt pro Datei)
+Comment=Jedes Tabellenblatt als CSV in einen Ordner mit dem Namen der Excel-Datei
+Exec=<scripts/xlsx-to-csv.py %F>
+Icon-Name=x-office-spreadsheet
+Selection=notnone
+Extensions=xlsx;xlsm;
+Quote=double
+Dependencies=python3;

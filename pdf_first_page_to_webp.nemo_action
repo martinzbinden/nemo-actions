@@ -1,0 +1,9 @@
+[Nemo Action]
+Active=true
+Name=Extract First Page as .webp
+Comment=Extracts only the first page of a PDF file to a WebP image using full path reconstruction
+Exec=bash -c 'f="%P/%f"; b="${f%.*}"; pdftoppm -png -r 300 -f 1 -l 1 "$f" "${b}_tmp"; cwebp -q 90 "${b}_tmp-1.png" -o "${b}_page1.webp"; rm "${b}_tmp-1.png"'
+Selection=s
+Extensions=pdf;
+Icon-Name=image-x-generic
+
